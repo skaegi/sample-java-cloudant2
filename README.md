@@ -9,6 +9,7 @@ The config file is creating 2 stages:
 2. Deploy stage (using a custom script defined in the config file)
 
 Note that the config file is using environment variables to abstract away target locations so it will work nicely with the Deploy to Bluemix button, setting these variables based on user selection:
+
 1. ${CF_APP} - the selected app name to deploy
 2. ${CF_TARGET_URL} - a Bluemix region (CF API URL)
 3. ${CF_ORGANIZATION_ID} - an organization to deploy to in the selected region
