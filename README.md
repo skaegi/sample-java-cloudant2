@@ -1,4 +1,4 @@
-Press this button, to get your own copy of the sample running in Bluemix !
+Press this button, to get your own copy of a Java sample demonstrating Cloudant running in Bluemix !
 
 [![Deploy To Bluemix](https://bluemix.net/deploy/button.png)](http://bluemix.net/deploy)
 
