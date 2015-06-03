@@ -34,11 +34,11 @@ stages:
         type: deployer
         script: |-
             #!/bin/bash
-			cf create-service cloudantNoSQLDB Shared sample-java-cloudant-cloudantNoSQLDB
-			cf push "${CF_APP}"
-			# View logs
-			cf logs "${CF_APP}" --recent
-		target: 
+            cf create-service cloudantNoSQLDB Shared sample-java-cloudant-cloudantNoSQLDB
+            cf push "${CF_APP}"
+            # View logs
+            cf logs "${CF_APP}" --recent
+        target: 
           app_name: sample-java-cloudant
           organization_guid: ${CF_ORGANIZATION_ID}
           space_guid: ${CF_SPACE_ID}
