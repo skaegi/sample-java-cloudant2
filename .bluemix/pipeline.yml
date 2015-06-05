@@ -39,7 +39,7 @@ stages:
             # View logs
             cf logs "${CF_APP}" --recent
         target: 
-          app_name: sample-java-cloudant
+          app_name: ${CF_APP}
           organization_guid: ${CF_ORGANIZATION_ID}
           space_guid: ${CF_SPACE_ID}
           url: ${CF_TARGET_URL}
