@@ -39,7 +39,7 @@ stages:
             # View logs
             cf logs "${CF_APP}" --recent
         target: 
-          app_name: ${CF_APP}
+          application: ${CF_APP}
           organization: ${CF_ORGANIZATION}
           space: ${CF_SPACE}
           url: ${CF_TARGET_URL}
