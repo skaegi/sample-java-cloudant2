@@ -35,8 +35,9 @@ stages:
         script: |-
             #!/bin/bash
             cf create-service cloudantNoSQLDB Shared cs-${CF_APP}
-            cf push "${CF_APP}"
+            cf push "${CF_APP}" --no-start
             cf bind-service ${CF_APP} cs-${CF_APP}
+            cf push "${CF_APP}" -c "null"
             # View logs
             cf logs "${CF_APP}" --recent
         target: 
