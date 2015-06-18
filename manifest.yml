@@ -1,6 +1,6 @@
 applications:
 - services:
-  - sample-java-cloudant-cloudantNoSQLDB-${CF_APP}
+  - cs-${CF_APP}
   disk_quota: 1024M
   host: sample-java-cloudant
   name: sample-java-cloudant
