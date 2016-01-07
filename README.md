@@ -1,6 +1,6 @@
 Press this button, to get your own copy of a Java sample demonstrating Cloudant running in Bluemix !
 
-[![Deploy To Bluemix](https://bluemix.net/deploy/button.png)](http://bluemix.net/deploy)
+[![Deploy To Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy)
 
 This sample illustrates the new way of configuring a pipeline using a config file, located at ".bluemix/pipeline.yml" from the root of the repository.
 
